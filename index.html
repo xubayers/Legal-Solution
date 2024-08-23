@@ -564,12 +564,12 @@
       </section>
     </main>
     <!-- footer -->
-    <footer class="text-white">
+    <footer class="text-white bg-[#111111] p-2 py-6">
       <div
-        class="gap-7 bg-base-200 text-base-content p-10 container mx-auto bg-transparent grid lg:grid-cols-4 md:grid-cols-2"
+        class="gap-7 bg-base-200 text-base-content container mx-auto bg-transparent grid lg:grid-cols-4 md:grid-cols-2 text-white"
       >
         <nav>
-          <img class="mb-4" src="./images/logo2.png" alt="" />
+          <img class="mb-4 " src="./images/logo2.png" alt="" />
           <p class="text-sm">
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
@@ -603,25 +603,19 @@
             >
           </div>
         </nav>
-        <form>
-          <h6 class="footer-title">Subscribe</h6>
-          <fieldset class="form-control w-80">
-            <label class="label">
-              <span class="label-text"
-                >Subscribe for our latest & Articles. We Won’t Give You Spam
-                Mails</span
-              >
-            </label>
-            <div class="join">
-              <input
-                type="text"
-                placeholder="username@site.com"
-                class="input input-bordered join-item"
-              />
-              <button class="btn btn-primary join-item">Subscribe</button>
-            </div>
-          </fieldset>
-        </form>
+          <div><h6 class="footer-title">Subscribe</h6>
+            <p class="text-sm mb-3"
+              >Subscribe for our latest & Articles. We Won’t Give You Spam
+              Mails</p
+            >
+          <div class="join w-full">
+            <input
+              type="text"
+              placeholder="username@site.com"
+              class="p-2 rounded-tl-md rounded-bl-md text-black lg:w-5/6"
+            />
+            <button class="btn btn-primary join-item">Subscribe</button>
+          </div></div>
       </div>
     </footer>
   </body>
