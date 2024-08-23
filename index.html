@@ -143,7 +143,7 @@
       <!-- banner section herre -->
       <section class="px-3 container mx-auto">
         <div
-          class="bg-[url('./images/banner.png')] bg-cover bg-no-repeat text-white text-center py-24 mt-2 flex flex-col justify-center relative before:absolute before:contents-[''] before:w-full before:h-full before:bg-gradient-to-b before:to-black before:from-transparent before:opacity-70"
+          class="bg-[url('./images/banner.png')] bg-center bg-cover bg-no-repeat text-white text-center py-24 mt-2 flex flex-col justify-center relative before:absolute before:contents-[''] before:w-full before:h-full before:bg-gradient-to-b before:to-black before:from-transparent before:opacity-70"
         >
           <div class="z-10 max-w-[600px] md:mx-auto mx-2">
             <h1
@@ -157,15 +157,20 @@
               but the majority have suffered alteration in some form, by
               injected humour.
             </p>
-            <div>
+            <div class="w-full">
               <input
-                class="md:py-3 md:px-5 px-3 py-1 rounded-md text-black mt-2 md:w-8/12 mr-4 mb-2"
+                class="md:py-3 md:px-5 px-3 py-1 rounded-md text-black mt-2 md:w-8/12 w-auto mr-4 mb-2"
                 placeholder="Search your service..."
               />
               <button
-                class="md:py-3 md:px-5 py-1 px-3 rounded-md bg-[#B68C5A] text-white hover:bg-[#A68C5A]"
+                class="md:py-3 md:px-5 py-1 px-3 rounded-md bg-[#B68C5A] text-white hover:bg-[#A68C5A] hidden md:inline-block"
               >
                 Search
+              </button>
+              <button
+                class="md:py-3 md:px-5 py-1 px-3 rounded-md bg-[#B68C5A] text-white hover:bg-[#A68C5A] md:hidden inline-block"
+              >
+                <i class="fa-sharp fa-regular fa-magnifying-glass"></i>
               </button>
             </div>
           </div>
